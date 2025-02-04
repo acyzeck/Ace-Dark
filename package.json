@@ -1,20 +1,30 @@
 {
-  "name": "ace-dark",
-  "displayName": "Ace Dark",
-  "description": "Ace dark theme extension",
-  "version": "0.0.1",
+  "name": "acyzeck-dark-theme",
+  "displayName": "Acyzeck Dark Theme",
+  "version": "1.0.0",
+  "publisher": "Acyzeck",
+  "type": "dark",
+  "description": "A sleek dark theme for developers with easy-on-the-eyes syntax highlighting.",
   "engines": {
-    "vscode": "^1.96.0"
+    "vscode": "^1.0.0"
   },
-  "categories": [
-    "Themes"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acyzeck/Ace-Dark"
+  },
+  "icon": "icon.png",
+  "keywords": [
+    "theme",
+    "dark theme",
+    "acyzeck",
+    "ace"
   ],
   "contributes": {
     "themes": [
       {
         "label": "Ace Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Ace Dark-color-theme.json"
+        "path": "./themes/ace-dark-color-theme.json"
       }
     ]
   }

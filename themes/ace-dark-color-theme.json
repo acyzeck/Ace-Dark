@@ -1,23 +1,6 @@
 {
-  "name": "ace-dark",
-  "displayName": "Ace Dark",
-  "version": "1.0.0",
-  "publisher": "Acyzeck",
+  "name": "Ace Dark",
   "type": "dark",
-  "description": "A sleek dark theme for developers with easy-on-the-eyes syntax highlighting.",
-  "engines": {
-    "vscode": "^1.0.0"
-  },
-  "repository": {
-	"type": "git",
-	"url": ""
-  }
-  "keywords": [
-	"theme",
-	"dark theme",
-	"acyzeck",
-	"ace"
-  ],
   "semanticHighlighting": true,
 
 	"colors": {
