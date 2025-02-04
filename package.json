@@ -1,0 +1,21 @@
+{
+  "name": "ace-dark",
+  "displayName": "Ace Dark",
+  "description": "Ace dark theme extension",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ace Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ace Dark-color-theme.json"
+      }
+    ]
+  }
+}
